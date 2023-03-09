@@ -117,7 +117,7 @@ plt.plot(df.Close)
 plt.grid()
 st.pyplot(fig)
 
-model = pickle.load(open("Stock_market.pkl",'rb'))
+model = pickle.load(open("./Stock_market.pkl",'rb'))
 
 # past_100_days = data_training.tail(100)
 # final_df = past_100_days.append(data_testing , ignore_index=True)
